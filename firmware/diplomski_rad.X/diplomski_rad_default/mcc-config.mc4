@@ -1,0 +1,131 @@
+configVersion: 1.0.0
+coreVersion: 5.9.0
+spaHostVersion: 1.3.0
+device: PIC32MZ2048EFH144
+deviceLibrary: {}
+groupModules: []
+modules:
+- FreeRTOS
+- core
+- core_timer
+- dfp
+- i2c2
+- stdio
+- uart1
+generatedFileHashHistoryMap:
+- file: ..\src\config\default\FreeRTOSConfig.h
+  hash: f8fed57782e0ed4751d094b3c2af7a5f6a64a656e7cf20cc68b8eab35451c9a0
+- file: ..\src\config\default\definitions.h
+  hash: be7bcfc3d1998f56a0f2e7aa3cca258d32f97641c54171a517778dae67bed287
+- file: ..\src\config\default\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\default\exceptions.c
+  hash: 08af3364c3e5ad8bc07f5300f41ea8ded05493f9a5e9b77947ab3426322671bb
+- file: ..\src\config\default\freertos_hooks.c
+  hash: c97b8f92ad60ff513a27ac7a27b3c6824b75005eb8f7b85fe5ae18deaf568c4e
+- file: ..\src\config\default\initialization.c
+  hash: 814bab95a121f324b4bfec7a5e81187e8c420997fda6fa97d7fbbcfe721dba27
+- file: ..\src\config\default\interrupts.c
+  hash: 720f377eb258f6c082612604de2089de844f5b750a24ac260c863936e34467eb
+- file: ..\src\config\default\interrupts.h
+  hash: 19a9199d86b3eb9e60dd9f97dba0d44213eff84e0639101d476566532866688a
+- file: ..\src\config\default\interrupts_a.S
+  hash: 8f3daa831620c560f402bbf7f6ab9da593014cd42e2ba2b5c1ca7e870675e407
+- file: ..\src\config\default\p32MZ2048EFH144.ld
+  hash: 11adbfaeda6e28c761f00e2e60d6e7295fd8f5deffcefba4808464abca0c2a5c
+- file: ..\src\config\default\peripheral\clk\plib_clk.c
+  hash: 17fef316899dbbbf29c20b04c874f865b7696ecf0cc80504a9792c2c4e8abe30
+- file: ..\src\config\default\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\default\peripheral\coretimer\plib_coretimer.c
+  hash: fffd0d46d7d9a9ed96d7946c68d1f0084d5c1d0248ccbabc72b28b1767f902a1
+- file: ..\src\config\default\peripheral\coretimer\plib_coretimer.h
+  hash: 7b0fa1e5886439300ff7a4c8699a252cd19d9fe292afc760179798a9d5ed1420
+- file: ..\src\config\default\peripheral\evic\plib_evic.c
+  hash: 463f9f96e999905fec3a248d5aac61fd48f6f4ecec5f07ee978ccbb46210f70c
+- file: ..\src\config\default\peripheral\evic\plib_evic.h
+  hash: 486ea1d5c05801c1d1d96f3d3d5c5af20a9794640d4ca54f98c28add9188665f
+- file: ..\src\config\default\peripheral\gpio\plib_gpio.c
+  hash: 7e4e0cb9ee3bf34bd47f95e8b7a0aebd5d1d3ab85c187deb563fb477b60705f0
+- file: ..\src\config\default\peripheral\gpio\plib_gpio.h
+  hash: 5ad0baa857b820755702b323f643a63d3bfb41b2fea60e5a60b56b81288cfa9b
+- file: ..\src\config\default\peripheral\i2c\master\plib_i2c2_master.c
+  hash: 16920248dc9cb81354f8923066ed22eb5adabb7638416d07f3761c3bb668bea1
+- file: ..\src\config\default\peripheral\i2c\master\plib_i2c2_master.h
+  hash: 2f6e8e9380c5ba82f1489f821ebe2928ab762320ebce23aae7e638c2cd7cf9d6
+- file: ..\src\config\default\peripheral\i2c\master\plib_i2c_master_common.h
+  hash: e8e91fe4308eb9028f18cdb9ac7db5b82b0c3869c0911f884b9359940eedb411
+- file: ..\src\config\default\peripheral\i2c\plib_i2c_smbus_common.c
+  hash: 026121a1d5fae1028604b3031f89253ed36f588d037beb3722351261ce514dd2
+- file: ..\src\config\default\peripheral\i2c\plib_i2c_smbus_common.h
+  hash: 585f8d40c9fcaa072abdf3039cbc4b26ee3fbcb902171dd7e79a682e3973f995
+- file: ..\src\config\default\peripheral\uart\plib_uart1.c
+  hash: abc5f94eb3a2a19f10cca47ce68beb010080ac2a7f5cad802c8b93ca8e1a949d
+- file: ..\src\config\default\peripheral\uart\plib_uart1.h
+  hash: d4f48687206257bad50b226cd5683bb558d330eccc96a64f66f63422124b7529
+- file: ..\src\config\default\peripheral\uart\plib_uart_common.h
+  hash: b87295faadae4157d5880e22970f89094f2b51e1866930040a90ba49c6b29797
+- file: ..\src\config\default\stdio\xc32_monitor.c
+  hash: 34c7efa285dd6778faf01a0097bf7bebc131e7a8a0ed97bb737ff3e0a39895d2
+- file: ..\src\config\default\toolchain_specifics.h
+  hash: fd2fc7bbe60706409cc0c0a525825c0194f6f71adc0a89e6310041f06dc2f645
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
+- file: ..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c
+  hash: cfe709de0389c51886c02a762e1d99a9ec14707fa8da43beef122950b14d4157
+- file: ..\src\third_party\rtos\FreeRTOS\Source\croutine.c
+  hash: b7e15578564ae248cc890ebe688284c244b7e5054b4c7c39b6726fcd38732e05
+- file: ..\src\third_party\rtos\FreeRTOS\Source\event_groups.c
+  hash: f8739c4756c1a6a90aa2981366d706a3affd845da03c97c34f5b2e7537493e68
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h
+  hash: 97ec7b3c36b5108aace2f61445d2bb9bb26a341c8aa3d5157328263010d0e1cd
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h
+  hash: 946e11d339dab5f7be136775cfa75f7d51c0054b3d7efeff64d03263ee11de99
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h
+  hash: 282c3df0a516c46db7cd8c841150b9b6685deaf92eeadff79dbfe05915dc565b
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h
+  hash: b93938a05e1541408653b8e101047866f4ab1fed54aa2e6beec88266ef1a6f88
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\list.h
+  hash: 8a5c93ee448eb6e5546522d73e08583aae2c0a66cdada4f4dd75728f98c7e76c
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h
+  hash: f676f0ecc4a82d072ecec62101111041dff274cac0b1ebca48dd2b9f6432df38
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h
+  hash: 87e780ca9e277b0c2ecbb626833a55def268384d187a0ea67a840a9e1b00f41c
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\mpu_syscall_numbers.h
+  hash: dba0a617ae4a6ff4e387deda6f6a03859770141526e213a79de159a8d1e408ec
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h
+  hash: 18e555457219812bf8442d878486e53aa4e79f213cab3255cce88180d67f6f1c
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\portable.h
+  hash: d5f408bc6b2fff5314ce5e0097536be3842d8193f475c36dfac5168ff5fbf93a
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h
+  hash: 5ebc971e87d3b0a5a886e8c3dcf63c985aaa135a6a92876720841f0be885ce43
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\queue.h
+  hash: 079547ba473b4011dd8e185f90dbdf9a4eab8c5df38367f0eb616e0c796848cd
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h
+  hash: 5cf73d53ab31e5b620975cdaf5425f86f95fcd5f790539441636120c903b5cff
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h
+  hash: b67cf756197b65f07b8adbe43d1c186b4a3fddf6560f481e9ef54cea4f12feac
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h
+  hash: f4e11d510196cfefb2eae87e97ee0308edb4f6d163ae3da05d0edaa1d06a1bdf
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\task.h
+  hash: 474e34e5bd9c2b5cac49e1882d32f49da84389aeb3cfbeff334fcba16af9110c
+- file: ..\src\third_party\rtos\FreeRTOS\Source\include\timers.h
+  hash: fe31bfc90d53f73048d1636860abf7b26abfc5161efd63afa5e7d74c701e152e
+- file: ..\src\third_party\rtos\FreeRTOS\Source\list.c
+  hash: c81cbc0d9e2e4f5035a4b7e47995d0cd9303868e0a3f519a95f8f9969f382e6c
+- file: ..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\ISR_Support.h
+  hash: ff22c30603f62e1b37943f4790210b933aafbf326e845432769508746b9beac5
+- file: ..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port.c
+  hash: ccb9a4db4b373a2b61a050388ab2ccf44e80f7c4c60524a0a725267afaf7b354
+- file: ..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\port_asm.S
+  hash: 676d9af7c64688c41cfb0ce0d66ebaa05db796f395006a608663b457c1a918eb
+- file: ..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MZ\portmacro.h
+  hash: ffe13c49af2f5e2f36677fed97bb6d7f86e8cfe90f1b3031b2fa8500230e5ff8
+- file: ..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_4.c
+  hash: a261227173ff7b62a9d4c31e9c9370fd2c2a7a29091868d131228578f40139c3
+- file: ..\src\third_party\rtos\FreeRTOS\Source\queue.c
+  hash: bf0fc16ab27174e9fdce65bc66bb1b3e77820032944ab84c7eb16b31b53a1c88
+- file: ..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c
+  hash: 121def826654fe8741ac93d2bbda1203851f42ed4c602061d8c1c01a64624b14
+- file: ..\src\third_party\rtos\FreeRTOS\Source\timers.c
+  hash: 5a9060e28436b0c58b60f678e1eeb552b4142930cef4641dce262839334ae3f3
